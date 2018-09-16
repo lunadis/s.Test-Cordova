@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+*:focus{
+    outline: 0;
+}
+.hidden{
+    display: none;
+}
+.page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+#telalogin{
+    background: url("../img/abstract-21851_640.png");
+    background-size: cover;
+}
+#telausuario{
+    background: #f9fdff;
+}
+#telaCarregamento{
+    background: rgba(0, 0, 0, 0.49);
+    z-index: 9999;
+}
+.navbar{
+    background: #141c69;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    color: #f9fdff;
+    border-bottom: 2px solid orange ;
+    text-transform: uppercase;
+}
+.navbar spam{
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+.btnFootter{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    pedding: 15px,0px;
+    text-align: center;
+    background: #333333;
+    color: aliceblue;
+    bottom: 0;
+    border: 0;
+    text-transform: uppercase;
+}
+.lista{
+    list-style: none;
+    padding: 0;
+    background: #FFFFFF;
+}
+.itemlista{
+    display: block;
+    border-bottom: 1px solid rgba(37, 57, 255, 0.44);
+    padding: 15px 5px;
+
+}
+.painel-login{
+    width: 85%;
+    background: rgba(0, 0, 0, 0.25);
+    margin: 15px auto;
+    padding: 15px 5px;
+    border-radius: 5px;
+}
+.form-login{
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    width: 90%;
+    border-bottom: 1px solid;
+    border-radius: 5px;
+}
+.login-header img{
+    padding-left: 80px;
+    max-height:  100px;
+    max-height: 100px;
+}
+.btn-primary{
+    width: auto;
+    padding: 10px 25px;
+    background: #141c69;
+    color: #E4E4E4;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0px;
+}
+.btn-secundary{
+    width: auto;
+    padding: 10px 25px;
+    background: #b37f1e;
+    color: #E4E4E4;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0px;
+}
+.img-load{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
